@@ -6,9 +6,18 @@ Overview :
 This project is a trading bot developed in Node.js that leverages the Alpaca trading API for stock trading and Google Generative AI for analyzing news headlines. The bot listens to real-time news events, evaluates the impact on stocks using AI, and makes buy or sell decisions accordingly.
 
 ## Demo
+terminal when your app is successfully connected to realtime news throught api
+![connection successfull](readmeImg/image-1.png)
 
-Insert gif or link to demo
+news event occuered + impact score calculated
+![news event](readmeImg/image-2.png)
+trading account website screenshot 
 
+before this news event :
+![before stock purchase](readmeImg/image-3.png)
+
+after this news event (stock bought) :
+![after stock purchase](readmeImg/image-4.png)
 
 ## Features
 
