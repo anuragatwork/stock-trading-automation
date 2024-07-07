@@ -11,6 +11,7 @@ This project is a trading bot developed in Node.js that leverages the Alpaca tra
 - AI-driven Decision Making: Uses Google Generative AI to analyze the impact of news headlines on stock prices.
 - Automated Trading: Automatically buys or sells stocks based on the AI's analysis.
 - Paper Trading: Operates in a safe paper trading environment for testing without real money.
+-cron job setup to match us stock exchange trading hours
 
 
 ## Demo
@@ -60,6 +61,7 @@ Start the server
 ```bash
   node server.js
 ```
+you may want to run  server.js version because index.js runs only during 9.00 am et to 4.30 pm et (us trading hours)
 
 
 ## Tech Stack
